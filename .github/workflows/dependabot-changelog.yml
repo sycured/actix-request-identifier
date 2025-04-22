@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           token: ${{ secrets.ACTION_TOKEN }}
-      - uses: dangoslen/dependabot-changelog-helper@a841dcd1c4c526275c6ff16ef54ae96e304e258c # v3.11.1
+      - uses: dangoslen/dependabot-changelog-helper@b7f0abb841d1bd3a1319db5918ed2d0ec466615f # v4.1.0
         with:
           activationLabel: 'dependabot'
       - uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 # v5.2.0
